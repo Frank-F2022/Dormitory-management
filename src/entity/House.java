@@ -120,4 +120,8 @@ public House(int houseID, String houseName, String address, int floorNum, int ma
     public void setRooms(ArrayList<Room> rooms) {
         this.rooms = rooms;
     }
+
+    public void display(){
+        System.out.println("nihao");
+    }
 }
